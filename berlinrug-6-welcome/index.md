@@ -84,3 +84,38 @@ Time|What's happening
 19:30|Kevin O'Brien (University of Limerick; [@kobriendublin](https://twitter.com/kobriendublin)): "Method Comparison Studies with R: A whistlestop tour of methods and techniques for one of the most commonly encountered problems in sciences"
 from ~20:45|socializing & networking
 22:00|doors close
+
+--- .class #id 
+
+## A neRdy gReeting
+
+
+```r
+set.seed(31612310)
+paste(sample(letters,5,T), collapse='')
+set.seed(12353); sample(0:9,4,T)
+```
+
+--- .class #id 
+
+## A neRdy gReeting
+
+
+```r
+set.seed(31612310)
+paste(sample(letters,5,T), collapse='')
+```
+
+```
+## [1] "happy"
+```
+
+```r
+set.seed(12353); sample(0:9,4,T)
+```
+
+```
+## [1] 2 0 1 6
+```
+
+Thanks, [Berry](https://twitter.com/berryboessenkoo)!
